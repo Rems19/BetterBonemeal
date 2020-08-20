@@ -4,6 +4,7 @@
   "package": "fr.rems19.betterbonemeal.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "BoneMealItemMixin"
   ],
   "client": [
   ],

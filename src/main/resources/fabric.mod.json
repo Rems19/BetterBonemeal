@@ -8,16 +8,13 @@
     "Rems19"
   ],
   "contact": {
-    "website": "https://mywebsite.com",
-    "repo": "https://myrepo.com"
+    "website": "https://www.curseforge.com/minecraft/mc-mods/better-bonemeal",
+    "repo": "https://github.com/Rems19/BetterBonemeal"
   },
-  "license": "MIT",
+  "license": "LGPL-3.0-or-later",
   "icon": "assets/better-bonemeal/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "fr.rems19.betterbonemeal.client.BetterBonemealClient"
-    ],
     "main": [
       "fr.rems19.betterbonemeal.BetterBonemeal"
     ]
