@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "better-bonemeal",
+  "version": "${version}",
+  "name": "Better Bonemeal",
+  "description": "A simple mod that helps you farm faster by removing the need to switch between bone meal and crops.",
+  "authors": [
+    "Rems19"
+  ],
+  "contact": {
+    "website": "https://mywebsite.com",
+    "repo": "https://myrepo.com"
+  },
+  "license": "MIT",
+  "icon": "assets/better-bonemeal/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "fr.rems19.betterbonemeal.client.BetterBonemealClient"
+    ],
+    "main": [
+      "fr.rems19.betterbonemeal.BetterBonemeal"
+    ]
+  },
+  "mixins": [
+    "better-bonemeal.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.2+build.206",
+    "fabric": "*",
+    "minecraft": "1.16.1"
+  }
+}
