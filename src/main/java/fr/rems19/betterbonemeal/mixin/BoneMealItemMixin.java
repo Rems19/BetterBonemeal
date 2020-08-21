@@ -46,7 +46,7 @@ public class BoneMealItemMixin {
                     }
                     // If there is no seed to replant, then don't do anything. Else, replace the block with age 0 and drop the remaining drops.
                     if (foundSeedInDrops) {
-                        Block.replaceBlock(blockState, crop.withAge(0), world, blockPos, 0, 1);
+                        Block.replace(blockState, crop.withAge(0), world, blockPos, 0, 1);
                         drops.forEach(is -> Block.dropStack(world, blockPos, is));
 
                         // We don't want the default behavior to happen after that, the player will have to click again.

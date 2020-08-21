@@ -81,7 +81,7 @@ curseforge {
     apiKey = project.properties['curse_api_key']
     project {
         id = "403463"
-        changelog = "First alpha release"
+        changelog = "Updated to 1.16.2"
         releaseType = "alpha"
         addGameVersion project.minecraft_version
 
